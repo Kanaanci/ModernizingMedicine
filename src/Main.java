@@ -7,8 +7,8 @@ public class Main {
         ArcadeRobot arcadeRobot = new ArcadeRobot();
         TankRobot tankRobot = new TankRobot();
 
-        String arcadeFilePath = "D:\\Repos\\ModernizingMedicineRobot\\robotInputs.txt";
-        String tankFilePath = "D:\\Repos\\ModernizingMedicineRobot\\tankRobotInputs.txt";
+        String arcadeFilePath = "robotInputs.txt";
+        String tankFilePath = "tankRobotInputs.txt";
         ArrayList<Character> arcadeInputs = Processes.getInputs(arcadeFilePath); //array of input characters
         ArrayList<Character> tankInputs = Processes.getInputs(tankFilePath); //array of input characters
 
